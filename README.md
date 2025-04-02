@@ -16,3 +16,12 @@ A Python tool for compressing videos with FFmpeg
 1. 安装依赖：
    ```bash
    pip install tqdm
+2. 准备：
+   将视频放入input文件夹
+   确保FFmpeg已安装（或修改compress.py中的路径）
+3. 运行：
+   ```bash
+   python main.py
+4. 输出：
+   压缩后的视频保存在output文件夹
+   文件名添加compressed_前缀
